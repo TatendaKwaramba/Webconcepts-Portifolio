@@ -7,24 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portifolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- in your header -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
-    <!-- in your body -->
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
 </head>
 
 <body>
     <div class="body">
         <div class="nav">
-            <div class="nav-item" id="nav-brand">Tatenda Kwaramba</div>
+            <div class="nav-item" id="nav-brand">
+                <div class="profile">
+                    <img src="thumb.JPG" alt="">
+                    <span id="name">Tatenda Kwaramba</span>
+                </div>
+            </div>
             <div class="nav-item"></div>
             <div class="nav-item" id="nav-content">
-                <a href="#">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
+                <a href="#"><i class="fas fa-phone"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
             </div>
+        </div>
+        <div id="bottom-nav">
+            <hr>
         </div>
 
         <div class="screen-view">
@@ -32,11 +37,11 @@
             <hr>
             <h3>I am a Software Developer, particularily focusing on web development as of now</h3>
             <p>This portifolio indicates most of my capabilities, feel free to look around</p>
-            <a href="#" style="font-size: 1.5rem; background-color: #4936f4;">Learn More</a>
+            <a href="#xul" style="font-size: 2rem"><i class="fas fa-angle-double-down"></i></a>
         </div>
     </div>
 
-    <div class="education">
+    <div class="education" id="xul">
         <div class="school">
             <h3 id="heading">Harare Institute of Technology <span id="header-text"><small>August 2017 – June 2021</small></span></h3>
             <p>I am currently studying Computer Science at Harare Institute of Technology year two. Beginning of June
@@ -95,6 +100,45 @@
         </div>
     </div>
 
+    <div class="fixed-image" style="background-image: url('fixed-image.jpg'); background-size:cover; background-attachment: fixed;">
+        <p id="img-text">"You measure yourself by the size of problems you can solve"</p>
+    </div>
+
+    <div class="proj-container">
+        <h3>Projects</h3>
+        <div style="max-width : 50%; margin: auto">
+            <hr>
+        </div>
+        <p>click on image or the links to get more details</p>
+        <div class="projects">
+            <div class="proj">
+                <a href="#"><img src="Document1.png" alt=""></a>
+                <div class="details">
+                    Fenty Mobile App Official Site
+                    <a href="#">More Details</a>
+                </div>
+            </div>
+            <div class="proj">
+                <a href="#"><img src="Admissions-320x8151.jpg" alt=""></a>
+                <div class="details">Automated Admissions System for Student Selection
+                    <a href="#">More Details</a>
+                </div>
+            </div>
+            <div class="proj">
+                <a href="#"><img src="1500-0-1.jpg" alt=""></a>
+                <div class="details">Harare Flee Open-Marketing Platform
+                    <a href="#">More Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a class="con"><i class="fab fa-facebook-f"></i></a>
+        <a class="con"><i class="fab fa-twitter"></i></a>
+        <a class="con"><i class="fab fa-instagram"></i></a>
+        <a class="con"><i class="fab fa-linkedin-in"></i></a>
+    </div>
 </body>
 
 </html>
