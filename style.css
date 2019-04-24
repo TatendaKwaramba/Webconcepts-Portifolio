@@ -170,11 +170,12 @@ img {
 }
 
 .footer {
+    color: #cfb2f5;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #0c0c5f !important;
+    background-color: #08084e !important;
     font-size: 1.5rem !important;
     display: flex;
     justify-content: center;
